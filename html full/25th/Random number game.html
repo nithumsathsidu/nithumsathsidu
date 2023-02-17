@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Java Script</title>
+
+        
+
+        
+
+
+
+
+
+    </head>
+
+    <body>
+        
+        <p> What number is i'm thinking Now? </p>
+        <p> ***number between 0-10</p>
+        
+        <p> <input type="text" id="gess"> </p>
+
+        <p> <button id="gussCheck"> Guss!</button> 
+    
+        <script type="text/Javascript">
+			document.getElementById("gussCheck").onclick = function(){
+                var randonNumber = Math.random();
+                randonNumber = randonNumber * 11;
+                randonNumber = Math.floor(randonNumber);
+
+            if (document.getElementById("gess").value == randonNumber){ 
+
+                alert ("Well Done !!");
+            }
+
+            else{
+                alert("Nope!! try again, I am thinking number " + randonNumber);
+            }
+
+            }
+
+            
+        
+        </script>        
+            
+        
+    </body>
+    
+
+
+</html>
