@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+    <link rel="stylesheet" href="https://nithumsathsidu-silver-doodle-pj7jqg9xp542rvgw-5500.preview.app.github.dev/html%20full/css.css">
+    <head>
+        <title>Java Script</title>
+        <style>
+
+
+.logo{
+            border-radius: 100%;
+        padding: 5px;
+        width: 90px;
+        float: none;
+        padding-left: 690px;
+        padding-top: 0px;
+         
+            }
+            .add{
+            margin-top: 40px;
+        }
+        </style>
+
+        
+        
+
+        
+
+
+
+
+
+    </head>
+
+    <body>
+
+        <img class="logo" src="https://nithumsathsidu-silver-doodle-pj7jqg9xp542rvgw-5500.preview.app.github.dev/html%20full/logo-color.png"  alt="">
+
+        
+        <p class="add"> What number is I'm thinking Now? </p>
+        <p> ***number between 0-10</p>
+        
+        <p> <input type="text" id="gess"> </p>
+
+        <p> <button id="gussCheck"> Guss!</button> 
+    
+        <script type="text/Javascript">
+			document.getElementById("gussCheck").onclick = function(){
+                var randonNumber = Math.random();
+                randonNumber = randonNumber * 11;
+                randonNumber = Math.floor(randonNumber);
+
+            if (document.getElementById("gess").value == randonNumber){ 
+
+                alert ("Well Done !!");
+            }
+
+            else{
+                alert("Nope!! try again, I am thinking number " + randonNumber);
+            }
+
+            }
+
+            
+        
+        </script>        
+            
+        
+    </body>
+    
+
+
+</html>
