@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Java Script</title>
+
+
+
+    </head>
+
+    <body>
+        <p id="text">Hello</p>
+        <button id="button">Change Text</button> <br>
+        <h1>   </h1>
+
+        <p id="new">Hello Style Change</p>
+        <button id="style">style Change</button>
+
+        <button id="size">Size Change</button>
+
+        <button id="hide">Hide</button>
+
+
+        <p id="empty"></p>
+        <button id="button2">Input</button>
+            
+        <script type="text/Javascript">
+            alert("Welcome Nithum")
+            //Java Text
+            document.getElementById("style").onclick= function() {
+                document.getElementById("new").style.color = "red" ;  
+            }
+            document.getElementById("size").onclick= function() {
+                document.getElementById("new").style.fontSize = "50px";  
+            }
+
+            document.getElementById("hide").onclick= function() {
+                document.getElementById("new").style.display = "none";  
+            }
+
+
+            document.getElementById("button").onclick= function() {
+                document.getElementById("text").innerHTML="Hello Nithum";
+                
+                
+            }
+
+            document.getElementById("button2").onclick= function() {
+                document.getElementById("empty").innerHTML="Google LLC is an American multinational technology company focusing on online advertising, search engine technology, cloud computing, computer software, quantum computing, e-commerce, artificial intelligence, and consumer electronics.";
+            }
+
+            
+            
+        </script>        
+            
+        
+    </body>
+    
+
+
+
+
+</html>

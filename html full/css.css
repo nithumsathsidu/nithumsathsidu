@@ -1,0 +1,40 @@
+.right{
+    font-family:'Dancing Script';
+    font-weight: bold;
+    text-align: right;
+}
+p{
+    font-family:'Dancing Script';
+
+}
+div{
+    width: 400px;
+    margin: 50px;
+    padding: 20px;
+    background-color: #b3a5b5;
+    font-family:'Dancing Script';
+}
+.Nithum{
+    text-align: center;
+    font-family:'Dancing Script';
+    margin: 20px;
+}
+.jt{
+    text-align: justify;
+}
+
+.logo{
+    float: right;
+}
+.logo{
+    border-radius: 100%;
+padding: 5px;
+width: 90px;
+float: none;
+padding-left: 690px;
+padding-top: 0px;
+ 
+    }
+    .add{
+    margin-top: 40px;
+}
